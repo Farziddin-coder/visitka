@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: #121212;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .card {
+    background: #1e1e1e;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 217, 0, 0.836);
+    max-width: 350px;
+    width: 90%;
+    transition: transform 0.3s ease;
+}
+  .card:hover {
+    transform: scale(1.02);
+    }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #FFD700;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 16px;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .info p, .info a {
+    margin: 5px 0;
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  .socials {
+    margin: 20px 0;
+  }
+  .socials a {
+    background: #FFD700;
+    color: #000;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  .socials a:hover {
+    background: #1e1e1e;
+    border: 1px solid #FFD700;
+    color: #FFD700;
+  }
+  
+  
+
+  
